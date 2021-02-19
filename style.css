@@ -1,0 +1,163 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+  text-align: end;
+}
+.A{
+text-align: center;
+
+}
+#B{
+  box-shadow: 2px 2px 20px white;
+}
+
+.fini{
+  padding: 9px 9px 9px 9px;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: left;
+  
+}
+.fin{
+  background-color: #333;
+  overflow: hidden;
+  margin-top: 380px;
+}
+#ind{
+ background-color: black;
+}
+#Form{
+  text-align: center;
+}
+#monImage{
+  text-align: center;
+}
+.con{
+  background-image: url("zara_uniform.jpg");
+  box-shadow: 2px 2px 20px white;
+  margin-top: 100px;
+  text-align: center;
+}
+.con_color{
+  font-size: xx-large;
+font-style: italic;
+color: rgb(102, 14, 102);
+}
+.cod{
+font-size: xx-large;
+font-style: italic;
+color: rgb(102, 14, 102);
+}
+.dora{
+  background-image: url("zara_uniform.jpg");
+  box-shadow: 2px 2px 20px white;
+  margin-top: 100px;
+  text-align: center;
+}
+.salamione{
+background-color: black;
+}
+.salami{
+background-color: black;
+}
+#main{
+  width: 780px;
+  margin: auto;
+  font-size: 16px;
+  font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: auto;
+}
+.info{
+  margin-top: -16px;
+  background-color: #333;
+  color: whitesmoke;
+  margin-block-end: auto;
+  text-align: left;
+}
+#contact{
+  color: #4CAF50;
+}
+
+#costome{
+  box-shadow: 2px 2px 20px white;
+  margin-top: -20px;
+  text-align: left;
+  width: auto;
+}
+#ew{
+
+  margin-top: -550px;
+  width: auto;
+  text-align: center;
+}
+#solo{
+  box-shadow: 2px 2px 20px white;
+  margin-top: -350px;
+  width: auto;
+  text-align: right;
+}
+#soltion{
+
+  margin-top: -220px;
+  width: auto;
+  text-align: center;
+}
+.lolo{
+ 
+  color: lawngreen;
+  width: 4;
+  text-align: left;
+}
+.soso{
+
+  color: lawngreen;
+  width: 4;
+  text-align: center;
+}
+.dodo{
+
+  color: lawngreen;
+  width: 4;
+  text-align: right;
+}
+
+.toto{
+  color: lawngreen;
+  width: 4;
+  text-align: center;
+}
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial;
+  text-shadow: 0 0 1px #000;
+}
+
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+
